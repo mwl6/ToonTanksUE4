@@ -701,3 +701,111 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.22-06.03.53:718][571]LogDirectoryWatcher: A directory notification failed for 'E:/Coding/Unreal/Projects/ToonTanks/Content/Developers/Marc/Collections/' because it could not be accessed. Aborting watch request...
 [2021.01.22-06.03.54:051][572]LogDirectoryWatcher: A directory notification failed for 'E:/Coding/Unreal/Projects/ToonTanks/Saved/Collections/' because it could not be accessed. Aborting watch request...
 [2021.01.22-06.06.46:880][385]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.22-06.15.17:964][316]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.01.22-06.15.17:964][316]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.01.22-06.15.18:030][316]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.22-06.15.33:356][  0]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTanks.BP_PawnTanks
+[2021.01.22-06.15.34:617][  0]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 125 classes and 0 folders.
+[2021.01.22-06.15.37:809][  0]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.01.22-06.15.43:373][118]LogRenderer: Reallocating scene render targets to support 1144x900 Format 10 NumSamples 1 (Frame:96).
+[2021.01.22-06.15.43:736][158]LogSlate: Window 'BP_PawnTanks' being destroyed
+[2021.01.22-06.16.07:431][354]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.01.22-06.16.07:431][354]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.01.22-06.16.18:192][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.01.22-06.16.18:861][502]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.01.22-06.16.55:882][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.01.22-06.16.55:884][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.032
+[2021.01.22-06.16.55:983][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTanks] ([1] browsable assets)...
+[2021.01.22-06.16.55:983][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTanks]
+[2021.01.22-06.16.56:220][740]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTanks_Auto1B555BAAA4C95A73D2495B4A9B1C40207.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTanks_Auto1.uasset'
+[2021.01.22-06.16.56:271][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTurret] ([1] browsable assets)...
+[2021.01.22-06.16.56:271][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTurret]
+[2021.01.22-06.16.56:288][740]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTurret_Auto1DB4D7DE44A2AC849817668B4CAB5BD9A.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTurret_Auto1.uasset'
+[2021.01.22-06.16.56:294][740]LogFileHelpers: Auto-saving content packages took 0.410
+[2021.01.22-06.17.18:253][232]LogSlate: Took 0.045218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.22-06.17.27:823][755]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2021.01.22-06.17.27:862][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:862][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.SKEL_BP_PawnTank_C' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:863][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:863][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:863][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:863][755]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Pawns/BP_PawnTanks.PackageMetaData'
+[2021.01.22-06.17.27:979][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.01.22-06.17.27:990][755]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTankE4BD695E42BF17FC61D29681F6DC2DB2.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.01.22-06.17.28:354][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.01.22-06.17.28:389][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.22-06.17.28:411][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.01.22-06.17.28:674][755]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.01.22-06.17.28:674][755]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.01.22-06.18.05:729][273]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.01.22-06.18.12:076][273]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.01.22-06.18.42:512][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2021.01.22-06.18.42:522][751]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTurret523006354DA1FCBDEBA7F6BCDD030D86.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.01.22-06.18.42:545][751]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.01.22-06.18.42:545][751]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.01.22-06.26.17:526][965]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-06.26.17:526][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-06.26.18:912][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.22-06.26.18:912][ 86]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-06.26.18:912][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-06.26.22:631][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.01.22-06.26.40:395][473]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.22-06.26.41:928][473]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+	Asset Name: /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.01.22-06.26.43:532][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.01.22-06.26.43:556][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.01.22-06.26.43:574][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.22-06.26.43:593][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.22-06.26.49:327][117]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.01.22-06.26.49:327][117]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.01.22-06.26.58:567][171]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.01.22-06.26.59:119][171]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.01.22-06.27.04:875][776]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-06.27.04:875][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-06.27.06:759][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.01.22-06.27.08:202][979]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.22-06.27.08:295][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.22-06.27.09:828][154]Candidate modules for hot reload:
+[2021.01.22-06.27.09:828][154]  ToonTanks
+[2021.01.22-06.27.09:828][154]Launching UnrealBuildTool... [E:/Games/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1399 ToonTanksEditor Win64 Development -Project="E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject" "E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.01.22-06.27.09:839][154]Warning: Starting HotReload took  0.0s.
+[2021.01.22-06.27.18:932][356]CompilerResultsLog: New page: Compilation - Jan. 21, 2021, 2:27:18 p.m.
+[2021.01.22-06.27.18:932][356]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Coding\Unreal\Projects\ToonTanks).
+[2021.01.22-06.27.18:932][356]CompilerResultsLog: Building ToonTanksEditor...
+[2021.01.22-06.27.18:932][356]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.22-06.27.18:932][356]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.01.22-06.27.18:932][356]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2021.01.22-06.27.18:932][356]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1399.lib
+[2021.01.22-06.27.18:933][356]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1399.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1399.exp
+[2021.01.22-06.27.18:933][356]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1399.dll
+[2021.01.22-06.27.18:933][356]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1399.suppressed.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1399.suppressed.exp
+[2021.01.22-06.27.18:933][356]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.01.22-06.27.18:933][356]CompilerResultsLog: Total time in Parallel executor: 5.64 seconds
+[2021.01.22-06.27.18:933][356]CompilerResultsLog: Total execution time: 7.42 seconds
+[2021.01.22-06.27.18:933][356]LogMainFrame: MainFrame: Module compiling took 9.111 seconds
+[2021.01.22-06.27.18:946][356]LogHotReload: Re-instancing PawnBase after hot-reload.
+[2021.01.22-06.27.18:961][356]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0015 seconds. Added 1 classes and 3 folders.
+[2021.01.22-06.27.18:965][356]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.22-06.27.19:073][356]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3428 classes and 824 folders.
+[2021.01.22-06.27.19:073][356]Display: HotReload took  9.3s.
+[2021.01.22-06.27.19:774][356]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.22-06.27.27:679][ 94]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.01.22-06.27.27:679][ 94]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.01.22-06.27.34:751][875]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.01.22-06.27.35:435][875]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.01.22-06.27.40:619][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.01.22-06.27.40:651][405]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTank7E0B2215414A5F8629EB4496BCAA354A.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.01.22-06.27.40:675][405]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.01.22-06.27.40:675][405]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.01.22-06.27.44:065][704]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.01.22-06.27.53:821][704]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.01.22-06.28.01:426][573]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.01.22-06.28.04:802][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2021.01.22-06.28.04:831][878]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTurretAA7A1C3F497E88E16250119B219E2F6F.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.01.22-06.28.04:853][878]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.01.22-06.28.04:853][878]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.01.22-06.29.33:025][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2021.01.22-06.29.33:054][393]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/BP_PawnTankB1C092D445703DE815F24AA5501EC92B.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.01.22-06.29.33:090][393]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.01.22-06.29.33:090][393]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
