@@ -31,6 +31,4 @@ public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
-
-
 };
