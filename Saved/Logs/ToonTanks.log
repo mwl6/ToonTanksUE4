@@ -1100,3 +1100,147 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.03-23.32.00:332][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2021.02.03-23.32.00:332][955]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
 [2021.02.03-23.32.00:332][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.04-01.48.20:764][300]Candidate modules for hot reload:
+[2021.02.04-01.48.20:764][300]  ToonTanks
+[2021.02.04-01.48.20:765][300]Launching UnrealBuildTool... [E:/Games/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3843 ToonTanksEditor Win64 Development -Project="E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject" "E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.04-01.48.20:773][300]Warning: Starting HotReload took  0.0s.
+[2021.02.04-01.49.51:957][708]CompilerResultsLog: New page: Compilation - Feb. 3, 2021, 9:49:51 a.m.
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Coding\Unreal\Projects\ToonTanks).
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   Running UnrealHeaderTool "E:\Coding\Unreal\Projects\ToonTanks\ToonTanks.uproject" "E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Marc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 17.4330681 seconds
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.04-01.49.51:958][708]CompilerResultsLog: Building 12 actions with 8 processes...
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   [1/12] PawnTank.gen.cpp
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   [2/12] PawnTurret.gen.cpp
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   [3/12] PawnBase.gen.cpp
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   [4/12] TankGameModeBase.gen.cpp
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2021.02.04-01.49.51:958][708]CompilerResultsLog:   [5/12] PawnBase.cpp
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:   [6/12] TankGameModeBase.cpp
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(19) : error C2065: 'PlayerTank': undeclared identifier
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(31) : error C2065: 'PlayerTank': undeclared identifier
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(33) : error C2065: 'PlayerTank': undeclared identifier
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:   [7/12] HealthComponent.cpp
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:    E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:   [8/12] PawnTank.cpp
+[2021.02.04-01.49.51:959][708]CompilerResultsLog:   [9/12] PawnTurret.cpp
+[2021.02.04-01.49.51:959][708]LogMainFrame: MainFrame: Module compiling took 91.211 seconds
+[2021.02.04-01.49.51:960][708]Warning: HotReload failed, recompile failed
+[2021.02.04-01.51.55:660][542]Candidate modules for hot reload:
+[2021.02.04-01.51.55:660][542]  ToonTanks
+[2021.02.04-01.51.55:660][542]Launching UnrealBuildTool... [E:/Games/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3330 ToonTanksEditor Win64 Development -Project="E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject" "E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.04-01.51.55:669][542]Warning: Starting HotReload took  0.0s.
+[2021.02.04-01.52.31:115][702]CompilerResultsLog: New page: Compilation - Feb. 3, 2021, 9:52:31 a.m.
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Coding\Unreal\Projects\ToonTanks).
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.02.04-01.52.31:116][702]CompilerResultsLog:   Running UnrealHeaderTool "E:\Coding\Unreal\Projects\ToonTanks\ToonTanks.uproject" "E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Marc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 12.6334182 seconds
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.04-01.52.31:116][702]CompilerResultsLog: Building 7 actions with 8 processes...
+[2021.02.04-01.52.31:116][702]CompilerResultsLog:   [1/7] ToonTanks.init.gen.cpp
+[2021.02.04-01.52.31:116][702]CompilerResultsLog:   [2/7] TankGameModeBase.gen.cpp
+[2021.02.04-01.52.31:116][702]CompilerResultsLog:   [3/7] HealthComponent.cpp
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:   [4/7] TankGameModeBase.cpp
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:   [5/7] UE4Editor-ToonTanks-3330.lib
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3330.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3330.exp
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:   [6/7] UE4Editor-ToonTanks-3330.dll
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3330.suppressed.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3330.suppressed.exp
+[2021.02.04-01.52.31:117][702]CompilerResultsLog:   [7/7] ToonTanksEditor.target
+[2021.02.04-01.52.31:117][702]CompilerResultsLog: Total time in Parallel executor: 19.54 seconds
+[2021.02.04-01.52.31:117][702]CompilerResultsLog: Total execution time: 33.75 seconds
+[2021.02.04-01.52.31:117][702]LogMainFrame: MainFrame: Module compiling took 35.462 seconds
+[2021.02.04-01.52.31:345][702]LogClass: Could not find existing class TankGameModeBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.02.04-01.52.31:431][702]LogHotReload: Re-instancing TankGameModeBase after hot-reload.
+[2021.02.04-01.52.31:506][702]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0029 seconds. Added 6 classes and 6 folders.
+[2021.02.04-01.52.31:512][702]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.02.04-01.52.31:724][702]LogContentBrowser: Native class hierarchy populated in 0.0258 seconds. Added 3433 classes and 827 folders.
+[2021.02.04-01.52.31:724][702]Display: HotReload took 36.1s.
+[2021.02.04-02.10.55:277][627]Candidate modules for hot reload:
+[2021.02.04-02.10.55:277][627]  ToonTanks
+[2021.02.04-02.10.55:277][627]Launching UnrealBuildTool... [E:/Games/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,918 ToonTanksEditor Win64 Development -Project="E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject" "E:/Coding/Unreal/Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.04-02.10.55:286][627]Warning: Starting HotReload took  0.0s.
+[2021.02.04-02.10.59:902][948]CompilerResultsLog: New page: Compilation - Feb. 3, 2021, 10:10:59 a.m.
+[2021.02.04-02.10.59:902][948]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Coding\Unreal\Projects\ToonTanks).
+[2021.02.04-02.10.59:902][948]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.04-02.10.59:902][948]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.04-02.10.59:902][948]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.02.04-02.10.59:902][948]CompilerResultsLog:   [1/3] UE4Editor-ToonTanks-0918.lib
+[2021.02.04-02.10.59:902][948]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0918.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0918.exp
+[2021.02.04-02.10.59:902][948]CompilerResultsLog:   [2/3] UE4Editor-ToonTanks-0918.dll
+[2021.02.04-02.10.59:903][948]CompilerResultsLog:      Creating library E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0918.suppressed.lib and object E:\Coding\Unreal\Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0918.suppressed.exp
+[2021.02.04-02.10.59:903][948]CompilerResultsLog:   [3/3] ToonTanksEditor.target
+[2021.02.04-02.10.59:903][948]CompilerResultsLog: Total time in Parallel executor: 2.42 seconds
+[2021.02.04-02.10.59:903][948]CompilerResultsLog: Total execution time: 4.46 seconds
+[2021.02.04-02.10.59:903][948]LogMainFrame: MainFrame: Module compiling took 4.631 seconds
+[2021.02.04-02.10.59:942][948]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 3433 classes and 827 folders.
+[2021.02.04-02.10.59:942][948]Display: HotReload took  4.7s.
+[2021.02.04-02.11.44:079][725]LogUObjectHash: Compacting FUObjectHashTables data took  11.14ms
+[2021.02.04-02.11.44:112][725]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameStart.SKEL_WBP_GameStart_C' ref from Metadata '/Game/Blueprints/Widgets/BP.PackageMetaData'
+[2021.02.04-02.11.44:112][725]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart_C' ref from Metadata '/Game/Blueprints/Widgets/BP.PackageMetaData'
+[2021.02.04-02.11.44:112][725]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Widgets/BP.PackageMetaData'
+[2021.02.04-02.11.44:112][725]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Widgets/BP.PackageMetaData'
+[2021.02.04-02.11.44:112][725]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Widgets/BP.PackageMetaData'
+[2021.02.04-02.11.44:163][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2021.02.04-02.11.44:173][725]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/WBP_GameStart947E464941C0F68A24466081EF7306CE.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2021.02.04-02.11.44:565][725]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2021.02.04-02.11.44:595][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.02.04-02.11.44:616][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.02.04-02.11.44:665][725]AssetCheck: New page: Asset Save: WBP_GameStart
+[2021.02.04-02.11.44:665][725]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.02.04-02.11.46:478][909]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.02.04-02.11.53:817][250]LogSlate: Window 'WBP_GameStart' being destroyed
+[2021.02.04-02.17.17:808][294]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2021.02.04-02.17.17:810][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.082
+[2021.02.04-02.17.17:811][294]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([1] browsable assets)...
+[2021.02.04-02.17.17:811][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2021.02.04-02.17.17:825][294]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/WBP_GameStart_Auto3019816F54CCBC6AB17D672973AD42DDE.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto3.uasset'
+[2021.02.04-02.17.17:830][294]LogFileHelpers: Auto-saving content packages took 0.019
+[2021.02.04-02.23.12:759][204]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.02.04-02.23.12:925][205]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.02.04-02.23.12:925][205]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.02.04-02.23.12:936][205]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.02.04-02.23.12:985][206]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2021.02.04-02.23.13:095][209]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.02.04-02.23.13:095][209]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.02.04-02.23.13:326][212]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2021.02.04-02.23.13:402][215]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2021.02.04-02.23.13:421][216]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2021.02.04-02.23.16:197][513]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.02.04-02.23.16:597][551]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.02.04-02.23.16:871][560]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.02.04-02.23.17:273][603]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.02.04-02.23.18:498][716]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.02.04-02.23.19:026][775]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.02.04-02.23.19:053][778]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.02.04-02.26.24:674][159]BlueprintLog: New page: Compile WBP_GameStart
+[2021.02.04-02.26.24:730][159]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2021.02.04-02.26.46:882][371]BlueprintLog: New page: Collapse to Function
+[2021.02.04-02.27.22:821][329]LogEditorTransaction: Undo Move Node
+[2021.02.04-02.27.23:473][358]LogEditorTransaction: Undo Move Node
+[2021.02.04-02.28.14:488][758]LogSlate: Took 0.037079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.02.04-02.31.02:435][582]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.02.04-02.31.02:437][582]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.034
+[2021.02.04-02.31.02:438][582]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([1] browsable assets)...
+[2021.02.04-02.31.02:438][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2021.02.04-02.31.02:508][582]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/WBP_GameStart_Auto4EB7B1BD943947EC1113863A8F0B3AAD2.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto4.uasset'
+[2021.02.04-02.31.02:512][582]LogFileHelpers: Auto-saving content packages took 0.075
+[2021.02.04-02.38.28:751][820]BlueprintLog: New page: Compile WBP_GameStart
+[2021.02.04-02.38.28:798][820]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2021.02.04-02.40.58:687][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2021.02.04-02.40.58:713][735]LogSavePackage: Moving '../../../../../../Coding/Unreal/Projects/ToonTanks/Saved/WBP_GameStart446D621A43B9D2CC8F16E6861B1A8E17.tmp' to '../../../../../../Coding/Unreal/Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2021.02.04-02.40.58:733][735]AssetCheck: New page: Asset Save: WBP_GameStart
+[2021.02.04-02.40.58:733][735]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2021.02.04-02.41.02:859][178]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.02.04-02.41.02:859][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.04-02.41.02:898][178]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.02.04-02.41.02:898][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
