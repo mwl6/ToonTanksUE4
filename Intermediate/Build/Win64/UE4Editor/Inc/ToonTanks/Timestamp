@@ -1,6 +1,7 @@
 E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.h
+E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Components\HealthComponent.h
 E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h
 E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Pawns\PawnBase.h
 E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Pawns\PawnTank.h
 E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Pawns\PawnTurret.h
-E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\Components\HealthComponent.h
+E:\Coding\Unreal\Projects\ToonTanks\Source\ToonTanks\PlayerControllers\PlayerControllerBase.h
