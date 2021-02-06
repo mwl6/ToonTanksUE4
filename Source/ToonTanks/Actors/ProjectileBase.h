@@ -21,19 +21,27 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
+	// COMPONENTS
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* ProjectileMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
+	UParticleSystemComponent* ParticleTrail;
+	// VARIABLES
 	UPROPERTY(EditDefaultsOnly, Category="Damage")
 	TSubclassOf<UDamageType> DamageType;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Move", meta = (AllowPrivateAccess = "true"))
-	float MovementSpeed = 1300;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Damage", meta = (AllowPrivateAccess = "true"))
 	float Damage = 50;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Move", meta = (AllowPrivateAccess = "true"))
+	float MovementSpeed = 1300;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	UParticleSystem* HitParticle;
-
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* HitSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* LaunchSound;
+	// FUNCTIONS
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
