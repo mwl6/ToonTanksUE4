@@ -43,12 +43,17 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 		return;
 	}
 
+	// Technically the floor is an AActor so the camera shakes even if it hits the floor.
+	// Not ideal, but allowable for now.
 	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
+		FString Name = OtherActor->GetName();
+		UE_LOG(LogTemp, Warning, TEXT("The other actor is: %s"), *Name);
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
 		UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
 
 		UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
+		GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitShake);
 	}
 
 	if(OtherActor != MyOwner) {Destroy();}
